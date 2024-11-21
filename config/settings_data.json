@@ -9,9 +9,10 @@
  */
 {
   "current": {
-    "logo_width": 100,
+    "logo": "shopify://shop_images/logo-curious-supply.png",
+    "logo_width": 200,
     "type_header_font": "figtree_n8",
-    "heading_scale": 100,
+    "heading_scale": 110,
     "type_body_font": "figtree_n4",
     "body_scale": 100,
     "page_width": 1400,
@@ -141,6 +142,22 @@
       }
     },
     "content_for_index": [],
+    "blocks": {
+      "15683396631634586217": {
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "disabled": false,
+        "settings": {
+          "button_color": "#000000",
+          "secondary_color": "#FFFFFF",
+          "ternary_color": "#6A6A6A",
+          "button_icon": "chat_bubble",
+          "button_text": "no_text",
+          "button_horizontal_position": "bottom_right",
+          "button_vertical_position": "lowest",
+          "greeting_message": ""
+        }
+      }
+    },
     "color_schemes": {
       "scheme-1": {
         "settings": {
@@ -155,7 +172,7 @@
       },
       "scheme-2": {
         "settings": {
-          "background": "#e4f6ff",
+          "background": "#faf3e0",
           "background_gradient": "",
           "text": "#020912",
           "button": "#020912",
