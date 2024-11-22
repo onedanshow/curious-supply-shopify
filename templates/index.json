@@ -16,7 +16,7 @@
         "@media only screen and (max-width: 750px) {h1 {font-size: 60px; line-height: 1; }}"
       ],
       "settings": {
-        "custom_liquid": "<h1>Have the Best Today</h1>",
+        "custom_liquid": "<h1>Start Your Best Day</h1>",
         "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 32

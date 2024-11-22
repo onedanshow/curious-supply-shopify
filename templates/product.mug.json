@@ -107,6 +107,9 @@
         "collapsible_tab_XEgKkw",
         "collapsible_tab_yYQnEw"
       ],
+      "custom_css": [
+        "h1 {letter-spacing: -2px;}"
+      ],
       "settings": {
         "enable_sticky_info": true,
         "color_scheme": "scheme-1",

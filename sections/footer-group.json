@@ -11,11 +11,47 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "newsletter_tB4jwM": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_qAnEfM": {
+          "type": "heading",
+          "settings": {
+            "heading": "New Designs Brewing",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_yxrmLA": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Mugs and more are coming, each one featuring a way to brighten your day. </p><p>Sign up for upcoming drops!</p>"
+          }
+        },
+        "email_form_GhE9pJ": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_qAnEfM",
+        "paragraph_yxrmLA",
+        "email_form_GhE9pJ"
+      ],
+      "custom_css": [
+        "h2 {letter-spacing: -2px;}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "footer": {
       "type": "footer",
       "settings": {
         "color_scheme": "scheme-4",
-        "newsletter_enable": true,
+        "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": true,
         "show_social": true,
@@ -30,6 +66,7 @@
     }
   },
   "order": [
+    "newsletter_tB4jwM",
     "footer"
   ]
 }
