@@ -36,7 +36,7 @@
           "settings": {
             "layout": "horizontal",
             "icon_1": "box",
-            "heading_1": "Perfect Gift",
+            "heading_1": "The Perfect Gift",
             "icon_2": "truck",
             "heading_2": "Free Shipping",
             "icon_3": "dryer",
@@ -187,7 +187,7 @@
           "settings": {
             "heading": "How does the Joke of the Day mug work?",
             "icon": "check_mark",
-            "row_content": "<p>Simply scan the QR code on the mug using your smartphone's camera, and it will take you to our webpage displaying a new joke for the day. No additional apps are required.</p>",
+            "row_content": "<p>Simply scan the QR code on the mug using your smartphone's camera, and it will take you to our special webpage displaying a new joke for the day. No app download is required.</p>",
             "page": ""
           }
         },
