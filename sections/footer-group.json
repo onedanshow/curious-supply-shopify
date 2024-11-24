@@ -37,6 +37,7 @@
         "paragraph_yxrmLA",
         "email_form_GhE9pJ"
       ],
+      "disabled": true,
       "custom_css": [
         "h2 {letter-spacing: -2px;}"
       ],
@@ -50,7 +51,7 @@
     "custom_liquid_DHcpCV": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div style=\"text-align:center\"><img height=\"100\" src=\"https://cdn.shopify.com/s/files/1/0614/0988/6259/files/Footer_Mascot.png?v=1732256838\" /></div>",
+        "custom_liquid": "<div style=\"text-align:center\"><a href=\"/\"><img height=\"100\" src=\"https://cdn.shopify.com/s/files/1/0614/0988/6259/files/Footer_Mascot.png?v=1732256838\" /></a></div>",
         "color_scheme": "scheme-4",
         "padding_top": 36,
         "padding_bottom": 8

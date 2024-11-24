@@ -13,13 +13,13 @@
       "type": "custom-liquid",
       "custom_css": [
         "h1 {text-align: center; font-size: 90px; font-weight: 900; margin-top: 0; margin-bottom: 0; letter-spacing: -2px;}",
-        "@media only screen and (max-width: 750px) {h1 {font-size: 60px; line-height: 1; }}"
+        "@media only screen and (max-width: 750px) {h1 {font-size: 52px; line-height: 0.9; padding-left: 4rem; padding-right: 4rem; }}"
       ],
       "settings": {
         "custom_liquid": "<h1>Start Your Best Day</h1>",
         "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 32
+        "padding_top": 28,
+        "padding_bottom": 16
       }
     },
     "custom_liquid_fFhNNp": {
@@ -92,12 +92,49 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "newsletter_q8bpVi": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_kkrM83": {
+          "type": "heading",
+          "settings": {
+            "heading": "New Designs Brewing",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_6bBcMV": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Mugs and more are coming, each one featuring a unique way to brighten your day. </p><p>Sign up for upcoming drops!</p>"
+          }
+        },
+        "email_form_PF9EPW": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_kkrM83",
+        "paragraph_6bBcMV",
+        "email_form_PF9EPW"
+      ],
+      "custom_css": [
+        "h2 {letter-spacing: -2px;}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 68
+      }
     }
   },
   "order": [
     "custom_liquid_XA7KPe",
     "custom_liquid_fFhNNp",
     "featured_collection_nR6kwR",
-    "image-with-text"
+    "image-with-text",
+    "newsletter_q8bpVi"
   ]
 }

@@ -1,0 +1,290 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "text_rMYdTF": {
+          "type": "text",
+          "settings": {
+            "text": "11 ounce Coffee Mug",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "rating_jQ3KMi": {
+          "type": "rating",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "icon_with_text_Ukr8Gw": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "box",
+            "heading_1": "The Perfect Gift",
+            "icon_2": "truck",
+            "heading_2": "Free Shipping",
+            "icon_3": "dryer",
+            "heading_3": "Dishwasher Safe"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "collapsible_tab_PNxm8i": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "New Question Everyday",
+            "icon": "heart",
+            "content": "<p>Start your day with a spark of curiosity! Each morning, scan the QR code to reveal a brand-new question, designed to inspire connection and meaningful conversation.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_XEgKkw": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "No App Required",
+            "icon": "check_mark",
+            "content": "<p>No extra steps or downloads needed—simply use your phone’s camera to scan the QR code and enjoy instant access to daily jokes.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_yYQnEw": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Rate Questions You Like",
+            "icon": "star",
+            "content": "<p>Love a question? Let us know! Use the rating feature to help us improve and deliver the kind of questions you enjoy the most.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_rMYdTF",
+        "title",
+        "rating_jQ3KMi",
+        "price",
+        "icon_with_text_Ukr8Gw",
+        "description",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "collapsible_tab_PNxm8i",
+        "collapsible_tab_XEgKkw",
+        "collapsible_tab_yYQnEw"
+      ],
+      "custom_css": [
+        "h1 {letter-spacing: -2px;}"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-1",
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "none",
+        "mobile_thumbnails": "show",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 32,
+        "padding_bottom": 12
+      }
+    },
+    "multicolumn_YtX8XE": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_cUMiYd": {
+          "type": "column",
+          "settings": {
+            "title": "Start Your Day with Curiosity",
+            "text": "<p>The Question of the Day Mug is your daily spark of connection, perfect for igniting meaningful conversations and deepening relationships with thought-provoking questions every morning.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_ncejGb": {
+          "type": "column",
+          "settings": {
+            "title": "Effortless Fun",
+            "text": "<p>No apps, no hassle—just scan the QR code and enjoy a fresh joke every day. It’s the easiest way to add a little joy to your routine.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_B6MARt": {
+          "type": "column",
+          "settings": {
+            "title": "Built to Last",
+            "text": "<p>Made from durable ceramic, this mug is microwave and dishwasher safe, ensuring it’s ready to keep you laughing for years to come.</p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_cUMiYd",
+        "column_ncejGb",
+        "column_B6MARt"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 32,
+        "padding_bottom": 48
+      }
+    },
+    "collapsible_content_F9xjz8": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_CBzE9z": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How does the Question of the Day mug work?",
+            "icon": "check_mark",
+            "row_content": "<p>Simply scan the QR code on the mug using your smartphone's camera, and it will take you to our special webpage displaying a new question for the day. No app download is required.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_ebqWDp": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Do I need to download an app to access the questions?",
+            "icon": "check_mark",
+            "row_content": "<p>No, the questions are accessible via a web link that opens directly in your phone’s browser after scanning the QR code.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_cTwbyQ": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Can I rate the questions?",
+            "icon": "check_mark",
+            "row_content": "<p>Yes, the question page allows you to rate the questions you like, helping us improve and deliver better questions over time.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_rwGcTF": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is the mug dishwasher and microwave safe?",
+            "icon": "check_mark",
+            "row_content": "<p>Yes, the mug is made from high-quality ceramic and is both dishwasher and microwave safe.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_xjQpcE": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is there a subscription or hidden cost?",
+            "icon": "check_mark",
+            "row_content": "<p>Nope! Accessing the daily jokes is completely free with the purchase of the mug.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_jGAayW": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What if I missed yesterday's question?",
+            "icon": "check_mark",
+            "row_content": "<p>No worries! You can easily go back and view questions from previous days. Just scan the QR code, and you’ll have access to a history of past questions so you never miss out.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_CBzE9z",
+        "collapsible_row_ebqWDp",
+        "collapsible_row_cTwbyQ",
+        "collapsible_row_rwGcTF",
+        "collapsible_row_xjQpcE",
+        "collapsible_row_jGAayW"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Frequent Q's",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "scheme-2",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": true,
+        "image": "shopify://shop_images/02ShowPunchline.png",
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "multicolumn_YtX8XE",
+    "collapsible_content_F9xjz8",
+    "related-products"
+  ]
+}
