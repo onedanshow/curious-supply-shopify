@@ -11,6 +11,15 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "custom_liquid_iPDJae": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script type=\"text/javascript\">\n    (function(c,l,a,r,i,t,y){\n        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};\n        t=l.createElement(r);t.async=1;t.src=\"https://www.clarity.ms/tag/\"+i;\n        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);\n    })(window, document, \"clarity\", \"script\", \"p3xw5bh4j6\");\n</script>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "newsletter_tB4jwM": {
       "type": "newsletter",
       "blocks": {
@@ -59,6 +68,18 @@
     },
     "footer": {
       "type": "footer",
+      "blocks": {
+        "link_list_ycznaa": {
+          "type": "link_list",
+          "settings": {
+            "heading": "",
+            "menu": "footer"
+          }
+        }
+      },
+      "block_order": [
+        "link_list_ycznaa"
+      ],
       "settings": {
         "color_scheme": "scheme-4",
         "newsletter_enable": false,
@@ -76,6 +97,7 @@
     }
   },
   "order": [
+    "custom_liquid_iPDJae",
     "newsletter_tB4jwM",
     "custom_liquid_DHcpCV",
     "footer"

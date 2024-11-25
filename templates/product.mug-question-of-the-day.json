@@ -263,7 +263,6 @@
     },
     "related-products": {
       "type": "related-products",
-      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
@@ -279,12 +278,49 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "newsletter_dcgEV9": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_AxdgVi": {
+          "type": "heading",
+          "settings": {
+            "heading": "We're Just Getting Started",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_b4WM4h": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Mugs and more are coming, each one featuring a unique way to brighten your day.</p><p>Sign up for upcoming drops!</p>"
+          }
+        },
+        "email_form_GWArfU": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_AxdgVi",
+        "paragraph_b4WM4h",
+        "email_form_GWArfU"
+      ],
+      "custom_css": [
+        "h2 {letter-spacing: -2px;}"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "multicolumn_YtX8XE",
     "collapsible_content_F9xjz8",
-    "related-products"
+    "related-products",
+    "newsletter_dcgEV9"
   ]
 }
