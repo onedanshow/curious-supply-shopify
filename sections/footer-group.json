@@ -14,7 +14,7 @@
     "custom_liquid_iPDJae": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<script type=\"text/javascript\">\n    (function(c,l,a,r,i,t,y){\n        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};\n        t=l.createElement(r);t.async=1;t.src=\"https://www.clarity.ms/tag/\"+i;\n        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);\n    })(window, document, \"clarity\", \"script\", \"p3xw5bh4j6\");\n</script>",
+        "custom_liquid": "{%- unless request.design_mode -%}\n<script type=\"text/javascript\">\n    (function(c,l,a,r,i,t,y){\n        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};\n        t=l.createElement(r);t.async=1;t.src=\"https://www.clarity.ms/tag/\"+i;\n        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);\n    })(window, document, \"clarity\", \"script\", \"p3xw5bh4j6\");\n</script>\n{%- endunless -%}",
         "color_scheme": "",
         "padding_top": 0,
         "padding_bottom": 0

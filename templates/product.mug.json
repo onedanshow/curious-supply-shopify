@@ -265,7 +265,7 @@
         "container_color_scheme": "",
         "open_first_collapsible_row": true,
         "image": "shopify://shop_images/InHandShot.png",
-        "image_ratio": "small",
+        "image_ratio": "adapt",
         "desktop_layout": "image_second",
         "padding_top": 40,
         "padding_bottom": 52
