@@ -17,7 +17,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "FREE SHIPPING INCLUDED",
+            "text": "FREE SHIPPING ON ALL GIFTS",
             "link": ""
           }
         }
@@ -41,7 +41,7 @@
       "settings": {
         "logo_position": "middle-left",
         "menu": "temp-main-menu",
-        "menu_type_desktop": "mega",
+        "menu_type_desktop": "dropdown",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": true,
         "color_scheme": "scheme-2",
