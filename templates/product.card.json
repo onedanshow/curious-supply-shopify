@@ -34,6 +34,22 @@
           "type": "price",
           "settings": {}
         },
+        "description": {
+          "type": "description",
+          "settings": {}
+        },
+        "icon_with_text_c9hkkU": {
+          "type": "icon-with-text",
+          "settings": {
+            "layout": "horizontal",
+            "icon_1": "recycle",
+            "heading_1": "100% Recyclable",
+            "icon_2": "plant",
+            "heading_2": "FSC-Certified Card Stock",
+            "icon_3": "heart",
+            "heading_3": "Thick, Sturdy, Premium Feel"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -41,9 +57,32 @@
             "show_gift_card_recipient": true
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {}
+        "collapsible_tab_AJWnEi": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Sustainably Sourced",
+            "icon": "check_mark",
+            "content": "<p>Made from Forest Sustainability Council (FSC) certified materials for sustainable and responsible sourcing.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_hWLttE": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Thick 320gsm Card Stock",
+            "icon": "check_mark",
+            "content": "<p>We print on 320gsm thick card stock for a sturdy, luxurious feel.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_hMHQTe": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Real First-Class Stamp",
+            "icon": "check_mark",
+            "content": "<p>We use real stamps from USPS so your card has a personal feel.</p>",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -51,8 +90,12 @@
         "text_fAD7WN",
         "variant_picker_Bn3PH3",
         "price",
+        "description",
+        "icon_with_text_c9hkkU",
         "buy_buttons",
-        "description"
+        "collapsible_tab_AJWnEi",
+        "collapsible_tab_hWLttE",
+        "collapsible_tab_hMHQTe"
       ],
       "settings": {
         "enable_sticky_info": true,
