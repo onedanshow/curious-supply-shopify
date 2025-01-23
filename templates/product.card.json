@@ -12,6 +12,13 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "text_zqWVrJ": {
+          "type": "text",
+          "settings": {
+            "text": "Card & Envelope - 100% Recyclable",
+            "text_style": "uppercase"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {}
@@ -20,7 +27,7 @@
           "type": "text",
           "settings": {
             "text": "By {{ product.vendor }}",
-            "text_style": "uppercase"
+            "text_style": "body"
           }
         },
         "variant_picker_Bn3PH3": {
@@ -34,21 +41,21 @@
           "type": "price",
           "settings": {}
         },
-        "description": {
-          "type": "description",
-          "settings": {}
-        },
         "icon_with_text_c9hkkU": {
           "type": "icon-with-text",
           "settings": {
             "layout": "horizontal",
-            "icon_1": "recycle",
-            "heading_1": "100% Recyclable",
+            "icon_1": "heart",
+            "heading_1": "Thick, Sturdy, Premium Feel",
             "icon_2": "plant",
             "heading_2": "FSC-Certified Card Stock",
-            "icon_3": "heart",
-            "heading_3": "Thick, Sturdy, Premium Feel"
+            "icon_3": "recycle",
+            "heading_3": "100% Recyclable"
           }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -86,12 +93,13 @@
         }
       },
       "block_order": [
+        "text_zqWVrJ",
         "title",
         "text_fAD7WN",
         "variant_picker_Bn3PH3",
         "price",
-        "description",
         "icon_with_text_c9hkkU",
+        "description",
         "buy_buttons",
         "collapsible_tab_AJWnEi",
         "collapsible_tab_hWLttE",

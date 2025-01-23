@@ -15,7 +15,7 @@
         "text_rMYdTF": {
           "type": "text",
           "settings": {
-            "text": "11 ounce Coffee Mug",
+            "text": "Interactive Coffee Mug - 11 oz",
             "text_style": "uppercase"
           }
         },
@@ -264,7 +264,7 @@
         "color_scheme": "scheme-2",
         "container_color_scheme": "",
         "open_first_collapsible_row": true,
-        "image": "shopify://shop_images/InHandShot.png",
+        "image": "{{ product.metafields.product_page.faq_photo.value }}",
         "image_ratio": "adapt",
         "desktop_layout": "image_second",
         "padding_top": 40,
