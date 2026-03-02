@@ -54,12 +54,20 @@
             "swatch_shape": "circle"
           }
         },
+        "custom_liquid_gkNdMM": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<a href=\"{{ product.metafields.custom.etsy_url }}\" id=\"ProductSubmitButton-template--16723116458035__main\" target=\"_blank\" name=\"add\" class=\"product-form__submit button button--full-width button--primary\">\n            <span>Buy on Etsy\n</span>\n\n<div class=\"loading__spinner hidden\">\n  <svg xmlns=\"http://www.w3.org/2000/svg\" class=\"spinner\" viewBox=\"0 0 66 66\"><circle stroke-width=\"6\" cx=\"33\" cy=\"33\" r=\"30\" fill=\"none\" class=\"path\"></circle></svg>\n\n</div>\n</a>"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
+          "disabled": true,
           "settings": {
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": true
@@ -101,6 +109,7 @@
         "icon_with_text_Ukr8Gw",
         "description",
         "variant_picker",
+        "custom_liquid_gkNdMM",
         "quantity_selector",
         "buy_buttons",
         "collapsible_tab_PNxm8i",
@@ -117,9 +126,9 @@
         "constrain_to_viewport": true,
         "media_fit": "contain",
         "gallery_layout": "thumbnail_slider",
+        "mobile_thumbnails": "show",
         "media_position": "left",
         "image_zoom": "none",
-        "mobile_thumbnails": "show",
         "hide_variants": false,
         "enable_video_looping": false,
         "padding_top": 32,
@@ -167,11 +176,11 @@
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
+        "button_label": "",
+        "button_link": "",
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
@@ -251,8 +260,8 @@
         "heading_size": "h2",
         "heading_alignment": "left",
         "layout": "none",
-        "color_scheme": "scheme-2",
         "container_color_scheme": "",
+        "color_scheme": "scheme-2",
         "open_first_collapsible_row": true,
         "image": "shopify://shop_images/07_Floating_Question_Mug.jpg",
         "image_ratio": "adapt",
@@ -268,13 +277,13 @@
         "heading_size": "h2",
         "products_to_show": 4,
         "columns_desktop": 4,
+        "columns_mobile": "2",
         "color_scheme": "scheme-1",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
-        "columns_mobile": "2",
         "padding_top": 36,
         "padding_bottom": 36
       }

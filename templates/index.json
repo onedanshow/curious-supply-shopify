@@ -9,6 +9,31 @@
  */
 {
   "sections": {
+    "rich_text_6GxaCh": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_U3zKHb": {
+          "type": "heading",
+          "settings": {
+            "heading": "30% Off for Black Friday",
+            "heading_size": "h0"
+          }
+        }
+      },
+      "block_order": [
+        "heading_U3zKHb"
+      ],
+      "disabled": true,
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "custom_liquid_XA7KPe": {
       "type": "custom-liquid",
       "custom_css": [
@@ -38,18 +63,18 @@
     "featured_collection_nR6kwR": {
       "type": "featured-collection",
       "settings": {
+        "collection": "mugs",
+        "products_to_show": 3,
         "title": "",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "mugs",
-        "products_to_show": 3,
         "columns_desktop": 3,
+        "enable_desktop_slider": false,
         "full_width": false,
         "show_view_all": false,
         "view_all_style": "solid",
-        "enable_desktop_slider": false,
         "color_scheme": "",
         "image_ratio": "adapt",
         "image_shape": "default",
@@ -69,18 +94,18 @@
         "h2 {letter-spacing: -1px;}"
       ],
       "settings": {
+        "collection": "cards",
+        "products_to_show": 9,
         "title": "Cards as Clever as You Are",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "cards",
-        "products_to_show": 9,
         "columns_desktop": 3,
+        "enable_desktop_slider": false,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
-        "enable_desktop_slider": false,
         "color_scheme": "scheme-1",
         "image_ratio": "adapt",
         "image_shape": "default",
@@ -113,13 +138,13 @@
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
+        "image_behavior": "none",
+        "content_layout": "no-overlap",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
+        "mobile_content_alignment": "center",
         "section_color_scheme": "scheme-1",
         "color_scheme": "scheme-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -162,6 +187,7 @@
     }
   },
   "order": [
+    "rich_text_6GxaCh",
     "custom_liquid_XA7KPe",
     "custom_liquid_fFhNNp",
     "featured_collection_nR6kwR",
